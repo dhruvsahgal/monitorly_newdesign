@@ -1,0 +1,11 @@
+/* Buttons */
+
+.btn-primary{
+	@include add-background($monitorily-active);
+	@include add-border(2px, $monitorily-active, all);
+}
+
+.btn-primary:hover{
+	background:darken($monitorily-active,10%);
+	@include add-border(2px, $monitorily-active, all);
+}
