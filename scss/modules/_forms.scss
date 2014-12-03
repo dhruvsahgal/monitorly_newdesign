@@ -1,5 +1,26 @@
+/* Control Padding customization */
+.control-group{
+padding-bottom: 10px;	
+	.control-label{
+	font-weight:normal;
+	}
+	#datetimepicker1{
+	width: 68%;
+	margin-left: 15px;
+	}
+	#campname{
+	width: 72%;
+
+	}
+	.moniaddon{
+		background-color: #eee;
+		border: 1px solid #ccc;
+	}
+
+}
+
  /* Searchbox */
- 
+
  .search{
 	width:100%;
 	

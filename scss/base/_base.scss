@@ -12,7 +12,7 @@ ul,li{
 }
 
 input, textarea, button{
-	@include border-radius(100px);
+	@include border-radius(4px);
 }
 
 img.device{

@@ -15,48 +15,58 @@ h1, h2, h3, h4, h5 {
 }
 
 /* line 5, ../scss/base/_normalize.scss */
+h3 {
+  font-size: 20px !important;
+}
+
+/* line 9, ../scss/base/_normalize.scss */
+h4 {
+  font-size: 16px !important;
+}
+
+/* line 13, ../scss/base/_normalize.scss */
 .page-header {
   margin-top: 30px;
 }
 
-/* line 9, ../scss/base/_normalize.scss */
+/* line 17, ../scss/base/_normalize.scss */
 .no-pad-top {
   padding-top: 0;
 }
 
-/* line 13, ../scss/base/_normalize.scss */
+/* line 21, ../scss/base/_normalize.scss */
 .extra-pad {
   padding-top: 40px;
   padding-bottom: 40px;
 }
 
-/* line 18, ../scss/base/_normalize.scss */
+/* line 26, ../scss/base/_normalize.scss */
 .top-inner {
   padding: 90px 0 30px 0;
 }
 
 /* Image Sizes */
-/* line 23, ../scss/base/_normalize.scss */
+/* line 31, ../scss/base/_normalize.scss */
 .img-xsm {
   width: 100px;
 }
 
-/* line 24, ../scss/base/_normalize.scss */
+/* line 32, ../scss/base/_normalize.scss */
 .img-sm {
   width: 200px;
 }
 
-/* line 25, ../scss/base/_normalize.scss */
+/* line 33, ../scss/base/_normalize.scss */
 .img-lg {
   width: 400px;
 }
 
-/* line 26, ../scss/base/_normalize.scss */
+/* line 34, ../scss/base/_normalize.scss */
 .img-xlg {
   width: 700px;
 }
 
-/* line 28, ../scss/base/_normalize.scss */
+/* line 36, ../scss/base/_normalize.scss */
 .clearfix {
   clear: both;
 }
@@ -77,9 +87,9 @@ ul, li {
 
 /* line 14, ../scss/base/_base.scss */
 input, textarea, button {
-  -moz-border-radius: 100px;
-  -webkit-border-radius: 100px;
-  border-radius: 100px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
 }
 
 /* line 18, ../scss/base/_base.scss */
@@ -362,49 +372,56 @@ section {
 }
 
 /* line 7, ../scss/modules/_sections.scss */
+.section-campmaker {
+  background-color: white;
+  width: 90%;
+  margin: auto;
+}
+
+/* line 13, ../scss/modules/_sections.scss */
 .section-showcase {
   height: 400px;
   background: url("../img/showcase.jpg") no-repeat top center;
 }
-/* line 11, ../scss/modules/_sections.scss */
+/* line 17, ../scss/modules/_sections.scss */
 .section-showcase .showcase-content {
   padding: 110px 15px;
   text-align: center;
 }
-/* line 16, ../scss/modules/_sections.scss */
+/* line 22, ../scss/modules/_sections.scss */
 .section-showcase h1 {
   color: #00aff0;
 }
 
-/* line 21, ../scss/modules/_sections.scss */
+/* line 27, ../scss/modules/_sections.scss */
 .section-primary, .section-primary-a, .section-primary-b {
   background: #00aff0;
   color: #ffffff;
 }
 
-/* line 25, ../scss/modules/_sections.scss */
+/* line 31, ../scss/modules/_sections.scss */
 .section-primary-a {
   border-top: 4px solid #7fba00;
 }
 
-/* line 30, ../scss/modules/_sections.scss */
+/* line 36, ../scss/modules/_sections.scss */
 .section-primary-b {
   border-bottom: 4px solid #7fba00;
 }
 
-/* line 35, ../scss/modules/_sections.scss */
+/* line 41, ../scss/modules/_sections.scss */
 .section-secondary {
   background: #7fba00;
   color: #ffffff;
 }
 
-/* line 38, ../scss/modules/_sections.scss */
+/* line 44, ../scss/modules/_sections.scss */
 .section-light {
   background: #e4eef2;
   color: #666666;
 }
 
-/* line 42, ../scss/modules/_sections.scss */
+/* line 48, ../scss/modules/_sections.scss */
 .section-dark {
   background: #2b5464;
   color: #ffffff;
@@ -456,17 +473,41 @@ section {
   color: #666666;
 }
 
+/* Control Padding customization */
+/* line 2, ../scss/modules/_forms.scss */
+.control-group {
+  padding-bottom: 10px;
+}
+/* line 4, ../scss/modules/_forms.scss */
+.control-group .control-label {
+  font-weight: normal;
+}
+/* line 7, ../scss/modules/_forms.scss */
+.control-group #datetimepicker1 {
+  width: 68%;
+  margin-left: 15px;
+}
+/* line 11, ../scss/modules/_forms.scss */
+.control-group #campname {
+  width: 72%;
+}
+/* line 15, ../scss/modules/_forms.scss */
+.control-group .moniaddon {
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
 /* Searchbox */
-/* line 3, ../scss/modules/_forms.scss */
+/* line 24, ../scss/modules/_forms.scss */
 .search {
   width: 100%;
 }
-/* line 6, ../scss/modules/_forms.scss */
+/* line 27, ../scss/modules/_forms.scss */
 .search h3 {
   margin-top: 0;
   padding-top: 0;
 }
-/* line 11, ../scss/modules/_forms.scss */
+/* line 32, ../scss/modules/_forms.scss */
 .search input[type="search"] {
   border: 0;
   height: 50px;
@@ -476,7 +517,7 @@ section {
   padding-left: 10px;
   padding-bottom: 5px;
 }
-/* line 21, ../scss/modules/_forms.scss */
+/* line 42, ../scss/modules/_forms.scss */
 .search button {
   border: 0;
   background: none;
@@ -653,33 +694,6 @@ section {
 .footer-main li {
   line-height: 1.8em;
   list-style: none;
-}
-
-/* Blog */
-/* line 3, ../scss/layouts/_blog.scss */
-.blog-post {
-  border-top: 1px solid #cccccc;
-  border-left: 1px solid #cccccc;
-  border-right: 1px solid #cccccc;
-  padding: 15px;
-}
-/* line 8, ../scss/layouts/_blog.scss */
-.blog-post h2.page-header {
-  margin-top: 5px !important;
-}
-
-/* line 13, ../scss/layouts/_blog.scss */
-.blog-featured {
-  float: left;
-  margin-right: 15px;
-}
-
-/* line 18, ../scss/layouts/_blog.scss */
-.post-meta {
-  background: #f3f3f3;
-  padding: 10px 10px 10px 10px;
-  border: 1px solid #cccccc;
-  margin-bottom: 20px;
 }
 
 @media (max-width: 768px) {
