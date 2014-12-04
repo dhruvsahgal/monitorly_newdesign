@@ -6,6 +6,9 @@ body{
 	background-color:$base-background;
 }
 
+hr{
+	margin-top: 0px;
+}
 
 ul,li{
 	list-style:none;
@@ -17,6 +20,12 @@ input, textarea, button{
 
 img.device{
 	width:100%;
+}
+.active{
+	background:$monitorily-active;
+}
+.deactive{
+	background:$monitorily-secondary;
 }
 
 img.device-small{

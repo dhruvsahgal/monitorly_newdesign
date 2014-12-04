@@ -63,7 +63,7 @@
                   <div class="bs-wizard-info text-center"><h4>Vendor Sites</h4></div>
                 </div>
                 
-                <div class="col-xs-4 bs-wizard-step active"><!-- complete -->
+                <div class="col-xs-4 bs-wizard-step complete"><!-- complete -->
                   <div class="text-center bs-wizard-stepnum">Step 3</div>
                   <div class="progress"><div class="progress-bar"></div></div>
                   <a href="#" class="bs-wizard-dot"></a>
@@ -80,7 +80,7 @@
   </div>
 </div>    </div>
 
-<section class="section-campmaker">
+<section id="step1"class="section-campmaker">
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
@@ -131,26 +131,428 @@
 </form>
 
       </div>
-        <div class="col-md-8"><!-- complete -->
-<h3>Schedule Camping</h3>
+      <h3>Schedule Camping</h3>
+
+        <div class="col-md-8 surround"><!-- complete -->
+               <div id="calspace"class="col-md-8 hfsurround"><!-- complete -->
+                <div class="row">
+                  <div class="col-md-4">
+<center><h5>2013</h5></center>
+                </div>
+                  <div class="col-md-4">
+<center>JUNE 2014</center>
+<hr>
+                </div>
+                  <div class="col-md-4">
+<center><h5>2015</h5></center>
+
+                </div>
+                </div>
 
 
+                  <div id="mycalender">
+
+                    <table>
+                        <th>SUN</th>
+                        <th>MON</th>
+                        <th>TUE</th>
+                        <th>WED</th>
+                        <th>THU</th>
+                        <th>FRI</th>
+                        <th>SAT</th>
+                        <tr>
+                          <td>1</td>
+                          <td>2</td>
+                          <td> <div class="calactive"><span class="dtselcted">3</div></td>
+                          <td> <div class="caldeactive"><span class="dtselcted">4</span></div></td>
+                          <td> <div class="caldeactive"><span class="dtselcted">5</span></div></td>
+                          <td> <div class="caldeactive"><span class="dtselcted">6</span></div></td>
+                          <td> <div class="caldeactive"><span class="dtselcted">7</span></div></td>
+                        </tr>
+                          <tr>
+                          <td> <div class="caldeactive"><span class="dtselcted">8</span></div></td>
+                          <td> <div class="caldeactive"><span class="dtselcted">9</span></div></td>
+                          <td> <div class="caldeactive"><span class="dtselcted">10</span></div></td>
+                          <td> <div class="caldeactive"><span class="dtselcted">11</span></div></td>
+                          <td> <div class="caldeactive"><span class="dtselcted">12</span></div></td>
+                          <td> <div class="calactive"><span class="dtselcted">13</span></div></td>
+                          <td>14</td>
+                        </tr>
+                          <tr>
+                          <td>15</td>
+                          <td>16</td>
+                          <td>17</td>
+                          <td>18</td>
+                          <td>19</td>
+                          <td>20</td>
+                          <td>21</td>
+                        </tr>
+                          <tr>
+                          <td>22</td>
+                          <td>23</td>
+                          <td>24</td>
+                          <td>25</td>
+                          <td>26</td>
+                          <td>27</td>
+                          <td>28</td>
+                        </tr>
+                          <tr>
+                          <td>29</td>
+                          <td>30</td>
+                          <td>31</td>
+                        </tr>
+
+                     </table>
+                  </div>
+
+                                  <div class="row">
+                  <div class="col-md-4">
+<center><small>Everyday</small></center>
+                </div>
+                  <div class="col-md-4">
+<hr>
+<center><h4>First Day & Last Day</h4></center>
+                </div>
+                  <div class="col-md-4">
+<center><small>Selected Dates</small></center>
+
+                </div>
+                </div>
+
+
+                </div>
+              <div class="col-md-4"><!-- complete -->
+               <center> <h5>Selected Dates</h5> </center>
+                    <ul class="datelist">
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+  <li><input type="checkbox" checked>15-04-2014</li>
+</ul>
+<center>
+  <button class="btn btn-xs btn-primary" type="button">uncheck</button>
+</center>
+
+                </div>
+       </div>
+    </div>
+<br>
+          <div class="row pull-right">
+  <button id="stp1nxt" class="btn btn-large btn-secondary" type="button">Next</button>
+  <button class="btn btn-large btn-primary" type="button">Cancel</button>
       </div>
 
 
-      <hr>
 
     </div> <!-- /container -->     
   </section>  <!-- /camp maker section--> 
+
+
+
+  <section id="step2" class="section-campmaker">
+    <div class ="container surround">
+      <div class="row ">
+        <div class="col-md-4">
+          <h4><span class="glyphicon glyphicon-user
+
+" aria-hidden="true"></span>&nbsp; Vendor List</h4>
+         </div>
+        <div class="col-md-4">
+          <h4><span class="glyphicon glyphicon-comment 
+
+" aria-hidden="true"></span>&nbsp; Site List</h4>
+        </div>
+        <div class="col-md-4">
+          <h4 class="secondary"><span class="glyphicon glyphicon-comment red
+
+" aria-hidden="true"></span>&nbsp; Selected Camping Sites</h4>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-md-4 hfsurround">
+          <div class="input-group">
+  <span class="input-group-addon"><span class="glyphicon glyphicon-search
+
+" aria-hidden="true"></span></span>
+                    <input type='text' class="form-control" />
+</div>
+<br>
+          <ul class="mylist list-group">
+  <li class="cust list-group-item"><a href="#">Gurjot Eatads</a></li>
+  <li class="cust list-group-item"><a href="#">Laqshya</a></li>
+  <li class="cust list-group-item"><a href="#">Live-media</a></li>
+  <li class="cust list-group-item"><a href="#">Bright Advertising</a></li>
+  <li class="cust list-group-item"><a href="#">admin</a></li>
+</ul>
+
+         </div>
+        <div class="col-md-4 hfsurround">
+          <div class="input-group">
+  <span class="input-group-addon"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span></span>
+                    <input type='text' class="form-control" />
+</div>
+<br>
+          <ul class="mylist list-group">
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; Gurjot Eatads</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; Laqshya</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; Live-media</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; Bright Advertising</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; admin</a></li>
+</ul>
+
+<div id="outer"> 
+<div id="inner">
+<span id="shiftbtn" class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+</div>
+</div>
+
+         </div>
+   
+        <div class="col-md-4">
+
+
+                    <ul class="selctedlist">
+  <li class="cust list"><a href="#"><span class="glyphicon glyphicon-comment red" aria-hidden="true"></span>&nbsp; Gurjot Eatads</a></li>
+  <li class="cust list"><a href="#"><span class="glyphicon glyphicon-comment red" aria-hidden="true"></span>&nbsp; Laqshya</a></li>
+  <li class="cust list"><a href="#"><span class="glyphicon glyphicon-comment red" aria-hidden="true"></span>&nbsp; Live-media</a></li>
+  <li class="cust list-"><a href="#"><span class="glyphicon glyphicon-comment red" aria-hidden="true"></span>&nbsp; Bright Advertising</a></li>
+</ul>
+  </div>
+
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class ="end active"></div>
+        </div>       
+         <div class="col-md-4">
+          <div class ="end active"></div>
+        </div>        
+        <div class="col-md-4">
+          <div class ="end deactive"></div>
+        </div>
+</div>
+
+  </div>
+<br>
+  <div class="container">
+            <div class="row">
+               <div class="col-md-10">
+                <a href="#">
+                  Contact Us for uploading more
+                </a>
+                 </div>
+
+             <div class="col-md-2">
+  <button id="stp2nxt" class="btn btn-large btn-secondary" type="button">Next</button>
+  <button class="btn btn-large btn-primary" type="button">Cancel</button>
+         </div>
+      </div>
+</div>
+
+</section>
+
+
+
+
+  <section id="step3" class="section-campmaker">
+    <div class ="container surround">
+      <div class="row ">
+        <div class="col-md-4">
+          <h4><span class="glyphicon glyphicon-user
+
+" aria-hidden="true"></span>&nbsp; Available User</h4>
+         </div>
+        <div class="col-md-4">
+          <h4><span class="glyphicon glyphicon-comment red 
+
+" aria-hidden="true"></span>&nbsp; Sites assigned to users</h4>
+        </div>
+        <div class="col-md-4">
+          <h4 class="secondary"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; Selected Camping Sites</h4>
+        </div>
+      </div>
+      <hr>
+      <div class="row ">
+        <div class="col-md-4 hfsurround">
+          <div class="input-group">
+  <span class="input-group-addon"><span class="glyphicon glyphicon-search
+
+" aria-hidden="true"></span></span>
+                    <input type='text' class="form-control" />
+</div>
+<br>
+          <ul class="mylist list-group">
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-user
+
+" aria-hidden="true"></span> Gurjot Eatads</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-user
+
+" aria-hidden="true"></span> Laqshya</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-user
+
+" aria-hidden="true"></span> Live-media</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-user
+
+" aria-hidden="true"></span> Bright Advertising</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-user
+
+" aria-hidden="true"></span> admin</a></li>
+</ul>
+
+         </div>
+
+        <div class="col-md-4 hfsurround">
+
+
+                    <ul class="selctedlist">
+  <li class="cust list"><a href="#"><span class="glyphicon glyphicon-comment red" aria-hidden="true"></span>&nbsp; Gurjot Eatads</a></li>
+  <li class="cust list"><a href="#"><span class="glyphicon glyphicon-comment red" aria-hidden="true"></span>&nbsp; Laqshya</a></li>
+  <li class="cust list"><a href="#"><span class="glyphicon glyphicon-comment red" aria-hidden="true"></span>&nbsp; Live-media</a></li>
+  <li class="cust list-"><a href="#"><span class="glyphicon glyphicon-comment red" aria-hidden="true"></span>&nbsp; Bright Advertising</a></li>
+</ul>
+<div id="outer"> 
+<div id="inner">
+<span id="shiftbtn" class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+</div>
+</div>
+
+
+  </div>
+        <div class="col-md-4">
+          <div class="input-group">
+  <span class="input-group-addon"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span></span>
+                    <input type='text' class="form-control" />
+</div>
+<br>
+          <ul class="mylist list-group">
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; Gurjot Eatads</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; Laqshya</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; Live-media</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; Bright Advertising</a></li>
+  <li class="cust list-group-item"><a href="#"><span class="glyphicon glyphicon-comment
+
+" aria-hidden="true"></span>&nbsp; admin</a></li>
+</ul>
+
+         </div>
+ 
+
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class ="end active"></div>
+        </div>       
+         <div class="col-md-4">
+          <div class ="end deactive"></div>
+        </div>        
+        <div class="col-md-4">
+          <div class ="end active"></div>
+        </div>
+</div>
+
+  </div>
+<br>
+  <div class="container">
+            <div class="row">
+               <div class="col-md-10">
+                <a href="#">
+                  Contact Us for uploading more
+                </a>
+                 </div>
+
+             <div class="col-md-2">
+  <button id="stp3nxt" class="btn btn-large btn-secondary" type="button">Next</button>
+  <button class="btn btn-large btn-primary" type="button">Cancel</button>
+         </div>
+      </div>
+</div>
+
+</section>
+
+
+
+
+
 
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
         <script src="js/main.js"></script>
+        <script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.core.js"></script>
+<script src="http://jquery-ui.googlecode.com/svn/tags/latest/ui/jquery.effects.slide.js"></script>
+
         <script type="text/javascript">
             $(function () {
-                $('#datetimepicker1').datetimepicker();
+                //$('#datetimepicker1').datetimepicker();
+                $('#step2').hide();
+                $('#step3').hide();
+                $('#stp1nxt').on('click',gotostep2);
+                $('#stp2nxt').on('click',gotostep3);
+                $('#stp3nxt').on('click',gotostep1);
+                $('.mylist li a').on('mouseover',displaysign);
+                $('.mylist li a').on('mouseout',removesign);
+
+
+                   function removesign () {
+                    $(this).children().remove();
+                  }
+
+                  function displaysign () {
+                    var sign="<span id='displaysign' class='glyphicon glyphicon-chevron-right' style='float:right' aria-hidden='true'></span>"
+                     var x= $(this).html();
+                     $(this).html(x +sign);
+                  }
+
+                  function gotostep2 () {
+                          $('#step1').hide("slide", { direction: "left" }, 700);
+                          $('#step2').show("slide", { direction: "right" }, 700);
+                             }
+                  function gotostep3 () {
+                          $('#step2').hide("slide", { direction: "left" }, 700);
+                          $('#step3').show("slide", { direction: "right" }, 700);
+                             }
+                  function gotostep1 () {
+                          $('#step3').hide("slide", { direction: "left" }, 700);
+                          $('#step1').show("slide", { direction: "right" }, 700);
+                             }
+
             });
         </script>
     </body>

@@ -10,6 +10,25 @@ section{
 		margin:auto;
 }
 
+.surround
+{
+border: 1px solid #eee;
+ }
+ 
+ .hfsurround
+ {
+border-right: 1px solid #eee;
+ }
+
+ .cust{
+ border-left: none;
+ border-right: none;
+ border-top-left-radius: 0px !important; 
+ border-top-right-radius: 0px !important; 
+border-bottom: 1px solid #eee;
+
+  }
+
 .section-showcase{
 	height:$showcase-height;
 	background:url($showcase-image) no-repeat top center;

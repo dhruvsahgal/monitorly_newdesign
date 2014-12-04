@@ -9,3 +9,13 @@
 	background:darken($monitorily-active,10%);
 	@include add-border(2px, $monitorily-active, all);
 }
+
+.btn-secondary{
+	@include add-background($monitorily-secondary);
+	@include add-border(2px, $monitorily-secondary, all);
+}
+
+.btn-secondary:hover{
+	background:darken($monitorily-secondary,10%);
+	@include add-border(2px, $monitorily-secondary, all);
+}
