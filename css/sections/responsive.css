@@ -1,0 +1,4 @@
+@media (max-width: 850px) { /* line 2, ../../sass/sections/responsive.scss */
+  [class*="col"] { padding-right: 0px; padding-left: 0px; } }
+@media (max-width: 750px) { /* line 9, ../../sass/sections/responsive.scss */
+  .container { max-width: none !important; width: 970px; } }

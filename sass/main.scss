@@ -2,6 +2,7 @@
 
 @import "sections/reusablecomponents";
 
+
 /* Page Layout */
 
 @import "sections/header";
@@ -10,5 +11,5 @@
 /* Vendor */
 
 @import "vendor/bootstrap.scss";
-
+@import "sections/responsive";
 

@@ -6,3 +6,6 @@
 
 /* line 13, ../../sass/sections/panel.scss */
 .dropdown-user-assignee { background-color: #e1e1e1; padding: 0.4em; }
+
+/* line 17, ../../sass/sections/panel.scss */
+#headingOne, span { background-color: transparent; font-size: 12px; line-height: 2.3em; }

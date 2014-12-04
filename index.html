@@ -35,7 +35,7 @@
 					<li class="active ">
 						<span class="fa-stack fa-lg">
 							<i class="fa fa-square fa-stack-2x vertical-align "></i>
-							<i class="fa fa-user fa-stack-1x fa-inverse vertical-align "></i>
+							<i class="fa fa-user fa-stack-1x fa-inverse "></i>
 						</span>
 						<li><a href="">Rahul EatAds</a></li>
 						<li class="dropdown dropdown-user-assignee">
@@ -54,7 +54,7 @@
 	<!--Header ends here -->   
 	<div class="container">
 		<div class="row center-block">
-			<div class="alert alert-success text-center alert-dismissible" role="alert">
+			<div class="alert alert-success text-center alert-dismissible hide" role="alert">
 				<strong>Well Done!</strong> You've successfully added a new campaign.
 				<button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
 			</div>
@@ -67,14 +67,14 @@
 			<div class="panel panel-default panel-campaign">
 				<!-- Panel body starts here -->
 				<div class="panel-body">
-					<!-- col-md-12 starts here -->
-					<div class="col-md-12 ">
-						<div class="col-md-5">
+					<!-- col-sm-12 starts here -->
+					<div class="col-md-12 col-sm-12 col-xs-12">
+						<div class="col-md-5 col-sm-2 col-xs-2">
 							<h4>Manage Campaigns</h4>
 						</div>
-						<div class="col-md-7">
+						<div class="col-md-7 col-sm-10 col-xs-10">
 							<!--Add campaign button starts -->
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-4 col-xs-4">
 								<button class="btn btn-default btn-sm">
 									<i class="fa fa-plus-square"></i>
 									Add Campaign
@@ -82,7 +82,7 @@
 							</div>
 							<!--Add campaign button ends -->
 							<!--Filter by button starts -->
-							<div class="col-md-4 center-block">
+							<div class="col-md-4 col-sm-4 col-xs-4 center-block">
 								<span>Filter By:</span>
 								<span class="dropdown">
 									<button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownfilter" data-toggle="dropdown" aria-expanded="true">Active<span class="caret"></span>
@@ -93,11 +93,11 @@
 								</span>
 							</div>
 							<!--Filter by button ends -->
-							<div class="col-md-1">
+							<div class="col-sm-1 col-xs-1">
 								<span>Search</span>
 							</div>
 							<!-- Search button starts -->
-							<div class="col-md-4">
+							<div class="col-md-4 col-sm-3 col-xs-3">
 								<span class="input-group">
 									<input type="search" class="form-control">
 									<span class="input-group-addon"><i class="fa fa-search"></i></span>
@@ -106,21 +106,21 @@
 							<!-- Search button ends -->
 						</div>
 					</div>
-					<!-- col-md-12 ends here -->
+					<!-- col-sm-12 ends here -->
 				</div>
 				<!-- Panel body ends here -->
 			</div>
 			<!-- Panel ends here -->
-			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
   <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
-      <h4 class="panel-title panel-campaign">
-        	<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+    <div class="panel-heading row" role="tab" id="headingOne">
+      <p class="panel-title panel-campaign col-md-12 col-sm-12 col-xs-12">
+        	<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="col-md-2 col-sm-2 col-xs-2">
           <i class="fa fa-caret-down fa-lg"></i> <span> Samsung </span>
         </a>
-        <span> <i class="fa fa-edit"></i></span>       	
-        <span >10 June 2014 - 20 June 2014</span>
-        <span class="pull-right">
+        <!-- <span> <i class="fa fa-edit"></i></span>      -->  	
+        <span class="col-md-3 col-sm-3 col-xs-3 text-right">10 June 2014 - 20 June 2014</span>
+        <span class="text-right col-md-7 col-sm-7 col-xs-7">
         <button class="btn btn-default btn-sm">
 					<i class="fa  fa-share-square-o"></i>
 					Share
@@ -136,7 +136,7 @@
 				</button>
         </span>
 
-      </h4>
+      </p>
     </div>
     <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
@@ -312,7 +312,7 @@
 					</tbody>
 				</table>
 				<!-- table ends here -->
-				<div class="col-md-12 panel-campaign-assignee">
+				<div class="col-sm-12 panel-campaign-assignee">
 				<img src="images/usericon.png" alt="">
 					Rahul Eatads (4)
 					<span class="pull-right">
@@ -322,10 +322,7 @@
 						<ul class="dropdown-menu" role="menu">
 								<li><a href="#" class="text-muted"><i class="fa fa-check"></i>Delegate Task</a></li>
 								<li><a href="#" class="text-muted">
-									<span class="fa-stack">
-										<i class="fa fa-circle fa-stack-1x"></i>
-										<i class="fa fa-close fa-stack-1x fa-inverse"></i>
-									</span>
+								<i class="fa fa-close"></i>
 									Delete Vendor
 								</a></li>
 							</ul>
