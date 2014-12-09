@@ -10,46 +10,7 @@
 	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
 </head>
 <body>
-	<!-- Header starts here -->
-	<nav class="navbar navbar-default" role="navigation">
-		<div class="container">
-			<!-- navbar-header starts -->
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">EatAds.com</a>
-			</div>
-			<!-- navbar-header ends -->
-			<div id="navbar" class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#contact">Contact</a></li>
-				</ul>
 
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active ">
-						<span class="fa-stack fa-lg">
-							<i class="fa fa-square fa-stack-2x vertical-align "></i>
-							<i class="fa fa-user fa-stack-1x fa-inverse "></i>
-						</span>
-						<li><a href="">Rahul EatAds</a></li>
-						<li class="dropdown dropdown-user-assignee">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Settings</a></li>
-								<li><a href="#">Sign Out</a></li>
-							</ul>
-						</li>
-					</ul>
-				</div><!--/.nav-collapse -->
-			</div>
-		</div>
-	</nav>
 	<div class="clearfix"></div>
 	<!--Header ends here -->   
 	<div class="container">
@@ -63,41 +24,41 @@
 		<!-- row first ends here -->
 		<!-- row second starts here -->
 		<div class="row">
-		<!-- Panel starts here -->
+			<!-- Panel starts here -->
 			<div class="panel panel-default panel-campaign">
 				<!-- Panel body starts here -->
 				<div class="panel-body">
 					<!-- col-sm-12 starts here -->
 					<div class="col-md-12 col-sm-12 col-xs-12">
-						<div class="col-md-5 col-sm-2 col-xs-2">
-							<h4>Manage Campaigns</h4>
+						<div class="col-md-4 col-sm-2 col-xs-2">
+							<h4 class="text-info">Manage Campaigns</h4>
 						</div>
-						<div class="col-md-7 col-sm-10 col-xs-10">
+						<div class="col-md-8 col-sm-10 col-xs-10">
 							<!--Add campaign button starts -->
-							<div class="col-md-3 col-sm-4 col-xs-4">
-								<button class="btn btn-default btn-sm">
-									<i class="fa fa-plus-square"></i>
-									Add Campaign
+							<div class="col-md-2 col-sm-2 col-xs-2">
+								<button class="btn btn-default text-info">
+									<i class="fa fa-plus-square text-info"></i>
+									New Campaign
 								</button>
 							</div>
 							<!--Add campaign button ends -->
+							<div class="col-md-2 col-sm-2 col-xs-2 text-right">
+								<span>FILTER:</span>
+							</div>
 							<!--Filter by button starts -->
-							<div class="col-md-4 col-sm-4 col-xs-4 center-block">
-								<span>Filter By:</span>
-								<span class="dropdown">
-									<button class="btn btn-default dropdown-toggle btn-sm" type="button" id="dropdownfilter" data-toggle="dropdown" aria-expanded="true">Active<span class="caret"></span>
-									</button>
-									<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownfilter">
-										<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Action</a></li>
-									</ul>
-								</span>
+							<div class="col-md-3 col-sm-3 col-xs-3 center-block">
+								<select class="form-control">
+									<option>Active</option>
+									<option>upcoming</option>
+									<option>expired</option>
+								</select>
 							</div>
 							<!--Filter by button ends -->
-							<div class="col-sm-1 col-xs-1">
+							<div class="col-md-1 col-sm-1 col-xs-1">
 								<span>Search</span>
 							</div>
 							<!-- Search button starts -->
-							<div class="col-md-4 col-sm-3 col-xs-3">
+							<div class="col-md-4 col-sm-4 col-xs-4">
 								<span class="input-group">
 									<input type="search" class="form-control">
 									<span class="input-group-addon"><i class="fa fa-search"></i></span>
@@ -111,392 +72,396 @@
 				<!-- Panel body ends here -->
 			</div>
 			<!-- Panel ends here -->
-		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading row" role="tab" id="headingOne">
-      <p class="panel-title panel-campaign col-md-12 col-sm-12 col-xs-12">
-        	<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" class="col-md-2 col-sm-2 col-xs-2">
-          <i class="fa fa-caret-down fa-lg"></i> <span> Samsung </span>
-        </a>
-        <!-- <span> <i class="fa fa-edit"></i></span>      -->  	
-        <span class="col-md-3 col-sm-3 col-xs-3 text-right">10 June 2014 - 20 June 2014</span>
-        <span class="text-right col-md-7 col-sm-7 col-xs-7">
-        <button class="btn btn-default btn-sm">
-					<i class="fa  fa-share-square-o"></i>
-					Share
-				</button>
-				 <button class="btn btn-default btn-sm">
-					Download Photos
-				</button>
-					<button class="btn btn-default btn-sm">
-					Add/Edit Sites
-				</button>
-					<button class="btn btn-default btn-sm">
-					Delete Campaign
-				</button>
-        </span>
-
-      </p>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <div class="panel-body">
-				<div class="col-md-12 panel-campaign-assignee">
-				<img src="images/usericon.png" alt="">
-					Rahul Eatads (4)
-					<span class="pull-right dropdown">
-						<i class="fa fa-gear fa-lg"></i>
-					</span>
+			<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				<div class="panel panel-success">
+					<div class="panel-heading col-xs-12" role="tab" id="headingOne">
+						<div class="panel-title panel-campaign">
+							<a class="col-xs-4" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="headingNameAccordion">
+								<i class="fa fa-caret-down fa-lg"></i> <span class="namethecampaign"> Samsung </span>
+								<i class="fa fa-edit fa-sm hide"></i>
+							</a>
+							<span class="col-xs-7">10 June 2014 - 20 June 2014 </span>
+							<div class="dropdown col-xs-1">
+  <a class="dropdown-toggle dropdown-icon" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
+  <i class="fa fa-gear"></i>
+  </a>
+  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-share-square-o text-info"></i>Share Campaign</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-close text-danger"></i>Delete Campaign</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-share-square-o text-info"></i>Download Photos</a></li>
+    <li role="presentation" class="divider"></li>
+    <li role="presentation"><a role="menuitem" tabindex="-1" href="#"><i class="fa fa-share-square-o text-info"></i>Add/Delete Sites</a></li>
+  </ul>
+</div>
+</div>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						<div class="panel-body">
+							<div class="col-md-12 panel-campaign-assignee ">
+								<img src="images/usericon.png" alt="">
+								Rahul Eatads (4)
+								<span class="pull-right">
+									<a href="#" class="dropdown-toggle text-info" data-toggle="dropdown" role="button" aria-expanded="false">
+										<i class="fa fa-gear fa-lg"></i>
+									</a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#" class="text-muted">
+											<i class="fa fa-close text-danger"></i>
+											Delete Vendor
+										</a></li>
+									</ul>
+								</span>
+							</div>
+							<!-- table starts here -->
+							<table class="table">
+								<thead>
+									<tr class="active">
+										<td>Site Name</td>
+										<td>Location</td>
+										<td>Assigned</td>
+										<td>Uploaded Photos</td>
+										<td>POI</td>
+										<td>Assign Task</td>
+										<td></td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<img src="images/siteicon.png">
+											Gorai Bridge
+										</td>
+										<td>
+											<i class="fa fa-map-marker text-info"></i>
+											Delhi
+										</td>
+										<td>
+											<span class="dropdown dropdown-user-assignee">
+												<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
+													<img src="images/usericon.png" alt="">
+													<span id="text-change">Saurabh</span>
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu" role="menu">
+													<li><a href="#" class="text-muted">Shashank</a></li>
+													<li><a href="#" class="text-muted">Dhruv</a></li>
+												</ul>
+											</span>
+										</td>
+										<td>
+											<i class="fa fa-camera text-info"></i>
+											2 days ago
+										</td>
+										<td>
+											<i class="fa fa-check text-info"></i>
+										</td>
+										<td>
+											<i class="fa fa-check-square text-info"></i>
+											Assign Task
+										</td>
+										<td>
+											<i class="fa fa-close text-danger"></i>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="images/siteicon.png">
+											Gorai Bridge
+										</td>
+										<td>
+											<i class="fa fa-map-marker text-info"></i>
+											Bombay
+										</td>
+										<td>
+											<span class="dropdown dropdown-user-assignee">
+												<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
+													<img src="images/usericon.png" alt="">
+													<span id="text-change">Saurabh</span>
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu" role="menu" id="menu-item-dropdown">
+													<li><a href="#" class="text-muted">Gaurav</a></li>
+													<li><a href="#" class="text-muted">Rajeev</a></li>
+												</ul>
+											</span>
+										</td>
+										<td>
+											<i class="fa fa-camera text-info"></i>
+											2 days ago
+										</td>
+										<td>
+											<i class="fa fa-check text-info"></i>
+										</td>
+										<td>
+											<i class="fa fa-check-square text-info"></i>
+											Assign Task
+										</td>
+										<td>
+											<i class="fa fa-close text-danger"></i>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="images/siteicon.png">
+											Gorai Bridge
+										</td>
+										<td>
+											<i class="fa fa-map-marker text-info"></i>
+											Delhi
+										</td>
+										<td>
+											<span class="dropdown dropdown-user-assignee">
+												<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
+													<img src="images/usericon.png" alt="">
+													<span id="text-change">Saurabh</span>
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu" role="menu">
+													<li><a href="#" class="text-muted">Rajeev</a></li>
+													<li><a href="#" class="text-muted">Rahul</a></li>
+												</ul>
+											</span>
+										</td>
+										<td>
+											<i class="fa fa-camera text-info"></i>
+											2 days ago
+										</td>
+										<td>
+											<i class="fa fa-check text-info"></i>
+										</td>
+										<td>
+											<i class="fa fa-check-square text-info"></i>
+											Assign Task
+										</td>
+										<td>
+											<i class="fa fa-close text-danger"></i>
+										</td>
+									</tr>
+										<td>
+											<img src="images/siteicon.png">
+											Gorai Bridge
+										</td>
+										<td>
+											<i class="fa fa-map-marker text-info"></i>
+											Delhi
+										</td>
+										<td>
+											<span class="dropdown dropdown-user-assignee">
+												<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
+													<img src="images/usericon.png" alt="">
+													<span id="text-change">Saurabh</span>
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu" role="menu">
+													<li><a href="#" class="text-muted">Chirag</a></li>
+													<li><a href="#" class="text-muted">Rahul</a></li>
+												</ul>
+											</span>
+										</td>
+										<td>
+											<i class="fa fa-camera text-info"></i>
+											2 days ago
+										</td>
+										<td>
+											<i class="fa fa-check text-info"></i>
+										</td>
+										<td>
+											<i class="fa fa-check-square text-info"></i>
+											Assign Task
+										</td>
+										<td>
+											<i class="fa fa-close text-danger"></i>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<!-- table ends here -->
+							<div class="col-sm-12 panel-campaign-assignee">
+								<img src="images/usericon.png" alt="">
+								Rahul Eatads (4)
+								<span class="pull-right">
+									<a href="#" class="dropdown-toggle text-info" data-toggle="dropdown" role="button" aria-expanded="false">
+										<i class="fa fa-gear fa-lg"></i>
+									</a>
+									<ul class="dropdown-menu" role="menu">
+										<li><a href="#" class="text-muted">
+											<i class="fa fa-close text-danger"></i>
+											Delete Vendor
+										</a></li>
+									</ul>
+								</span>
+							</div>
+							<!-- table starts here -->
+							<table class="table">
+								<thead>
+									<tr class="active">
+										<td>Site Name</td>
+										<td>Location</td>
+										<td>Assigned</td>
+										<td>Uploaded Photos</td>
+										<td>POI</td>
+										<td>Assign Task</td>
+										<td></td>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>
+											<img src="images/siteicon.png">
+											Gorai Bridge
+										</td>
+										<td>
+											<i class="fa fa-map-marker text-info"></i>
+											Delhi
+										</td>
+										<td>
+											<span class="dropdown dropdown-user-assignee">
+												<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
+													<img src="images/usericon.png" alt="">
+													<span id="text-change">Saurabh</span>
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu" role="menu">
+													<li><a href="#" class="text-muted">Gaurav</a></li>
+													<li><a href="#" class="text-muted">Rajeev</a></li>
+												</ul>
+											</span>
+										</td>
+										<td>
+											<i class="fa fa-camera text-info"></i>
+											2 days ago
+										</td>
+										<td>
+											<i class="fa fa-warning text-danger"></i>
+										</td>
+										<td>
+											<i class="fa fa-check-square text-info"></i>
+											Assign Task
+										</td>
+										<td>
+											<i class="fa fa-close text-danger"></i>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="images/siteicon.png">
+											Gorai Bridge
+										</td>
+										<td>
+											<i class="fa fa-map-marker text-info"></i>
+											Delhi
+										</td>
+										<td>
+											<span class="dropdown dropdown-user-assignee">
+												<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
+													<img src="images/usericon.png" alt="">
+													<span id="text-change">Saurabh</span>
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu" role="menu">
+													<li><a href="#" class="text-muted">Saurabh</a></li>
+													<li><a href="#" class="text-muted">Rahul</a></li>
+												</ul>
+											</span>
+										</td>
+										<td>
+											<i class="fa fa-camera text-info"></i>
+											2 days ago
+										</td>
+										<td>
+											<i class="fa fa-check text-info"></i>
+										</td>
+										<td>
+											<i class="fa fa-check-square text-info"></i>
+											Assign Task
+										</td>
+										<td>
+											<i class="fa fa-close text-danger"></i>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="images/siteicon.png">
+											Gorai Bridge
+										</td>
+										<td>
+											<i class="fa fa-map-marker text-info"></i>
+											Delhi
+										</td>
+										<td>
+											<span class="dropdown dropdown-user-assignee">
+												<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
+													<img src="images/usericon.png" alt="">
+													<span id="text-change">Saurabh</span>
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu" role="menu">
+													<li><a href="#" class="text-muted">Dhruv</a></li>
+													<li><a href="#" class="text-muted">Rajeev</a></li>
+												</ul>
+											</span>
+										</td>
+										<td>
+											<i class="fa fa-camera text-info"></i>
+											2 days ago
+										</td>
+										<td>
+											<i class="fa fa-check text-info"></i>
+										</td>
+										<td>
+											<i class="fa fa-check-square text-info"></i>
+											Assign Task
+										</td>
+										<td>
+											<i class="fa fa-close text-danger"></i>
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="images/siteicon.png">
+											Gorai Bridge
+										</td>
+										<td>
+											<i class="fa fa-map-marker text-info"></i>
+											Delhi
+										</td>
+										<td>
+											<span class="dropdown dropdown-user-assignee">
+												<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
+													<img src="images/usericon.png" alt="">
+													<span id="text-change">Saurabh</span>
+													<span class="caret"></span>
+												</a>
+												<ul class="dropdown-menu" role="menu">
+													<li><a href="#" class="text-muted">Gurjot</a></li>
+													<li><a href="#" class="text-muted">Rajeev</a></li>
+												</ul>
+											</span>
+										</td>
+										<td>
+											<i class="fa fa-camera text-info"></i>
+											2 days ago
+										</td>
+										<td>
+											<i class="fa fa-check text-info"></i>
+										</td>
+										<td>
+											<i class="fa fa-check-square text-info"></i>
+											Assign Task
+										</td>
+										<td>
+											<i class="fa fa-close text-danger"></i>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<!-- table ends here -->
+						</div>
+					</div>
 				</div>
-				<!-- table starts here -->
-				<table class="table">
-					<thead>
-						<tr class="active">
-							<td>Site Name</td>
-							<td>Location</td>
-							<td>Assigned</td>
-							<td>Uploaded Photos</td>
-							<td>POI</td>
-							<td>Assign Task</td>
-							<td></td>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>
-								<img src="images/siteicon.png">
-								Gorai Bridge
-							</td>
-							<td>
-								<i class="fa fa-map-marker"></i>
-								Delhi
-							</td>
-							<td>
-								<span class="dropdown dropdown-user-assignee">
-							<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
-								<img src="images/usericon.png" alt="">
-								 Saurabh
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#" class="text-muted">Saurabh</a></li>
-								<li><a href="#" class="text-muted">Rajeev</a></li>
-							</ul>
-						</span>
-							</td>
-							<td>
-								<i class="fa fa-camera"></i>
-								2 days ago
-							</td>
-							<td>
-								<i class="fa fa-check"></i>
-							</td>
-							<td>
-								<i class="fa fa-check-square"></i>
-								Assign Task
-							</td>
-							<td>
-								<i class="fa fa-close"></i>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="images/siteicon.png">
-								Gorai Bridge
-							</td>
-							<td>
-								<i class="fa fa-map-marker"></i>
-								Delhi
-							</td>
-							<td>
-								<span class="dropdown dropdown-user-assignee">
-							<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
-								<img src="images/usericon.png" alt="">
-								 Saurabh
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#" class="text-muted">Saurabh</a></li>
-								<li><a href="#" class="text-muted">Rajeev</a></li>
-							</ul>
-						</span>
-							</td>
-							<td>
-								<i class="fa fa-camera"></i>
-								2 days ago
-							</td>
-							<td>
-								<i class="fa fa-check"></i>
-							</td>
-							<td>
-								<i class="fa fa-check-square"></i>
-								Assign Task
-							</td>
-							<td>
-								<i class="fa fa-close"></i>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="images/siteicon.png">
-								Gorai Bridge
-							</td>
-							<td>
-								<i class="fa fa-map-marker"></i>
-								Delhi
-							</td>
-							<td>
-								<span class="dropdown dropdown-user-assignee">
-							<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
-								<img src="images/usericon.png" alt="">
-								 Saurabh
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#" class="text-muted">Saurabh</a></li>
-								<li><a href="#" class="text-muted">Rajeev</a></li>
-							</ul>
-						</span>
-							</td>
-							<td>
-								<i class="fa fa-camera"></i>
-								2 days ago
-							</td>
-							<td>
-								<i class="fa fa-check"></i>
-							</td>
-							<td>
-								<i class="fa fa-check-square"></i>
-								Assign Task
-							</td>
-							<td>
-								<i class="fa fa-close"></i>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="images/siteicon.png">
-								Gorai Bridge
-							</td>
-							<td>
-								<i class="fa fa-map-marker"></i>
-								Delhi
-							</td>
-							<td>
-								<span class="dropdown dropdown-user-assignee">
-							<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
-								<img src="images/usericon.png" alt="">
-								 Saurabh
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#" class="text-muted">Saurabh</a></li>
-								<li><a href="#" class="text-muted">Rajeev</a></li>
-							</ul>
-						</span>
-							</td>
-							<td>
-								<i class="fa fa-camera"></i>
-								2 days ago
-							</td>
-							<td>
-								<i class="fa fa-check"></i>
-							</td>
-							<td>
-								<i class="fa fa-check-square"></i>
-								Assign Task
-							</td>
-							<td>
-								<i class="fa fa-close"></i>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<!-- table ends here -->
-				<div class="col-sm-12 panel-campaign-assignee">
-				<img src="images/usericon.png" alt="">
-					Rahul Eatads (4)
-					<span class="pull-right">
-						<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
-						<i class="fa fa-gear fa-lg"></i>
-						</a>
-						<ul class="dropdown-menu" role="menu">
-								<li><a href="#" class="text-muted"><i class="fa fa-check"></i>Delegate Task</a></li>
-								<li><a href="#" class="text-muted">
-								<i class="fa fa-close"></i>
-									Delete Vendor
-								</a></li>
-							</ul>
-					</span>
-				</div>
-				<!-- table starts here -->
-				<table class="table">
-					<thead>
-						<tr class="active">
-							<td>Site Name</td>
-							<td>Location</td>
-							<td>Assigned</td>
-							<td>Uploaded Photos</td>
-							<td>POI</td>
-							<td>Assign Task</td>
-							<td></td>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>
-								<img src="images/siteicon.png">
-								Gorai Bridge
-							</td>
-							<td>
-								<i class="fa fa-map-marker"></i>
-								Delhi
-							</td>
-							<td>
-								<span class="dropdown dropdown-user-assignee">
-							<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
-								<img src="images/usericon.png" alt="">
-								 Saurabh
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#" class="text-muted">Saurabh</a></li>
-								<li><a href="#" class="text-muted">Rajeev</a></li>
-							</ul>
-						</span>
-							</td>
-							<td>
-								<i class="fa fa-camera"></i>
-								2 days ago
-							</td>
-							<td>
-								<i class="fa fa-warning"></i>
-							</td>
-							<td>
-								<i class="fa fa-check-square"></i>
-								Assign Task
-							</td>
-							<td>
-								<i class="fa fa-close"></i>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="images/siteicon.png">
-								Gorai Bridge
-							</td>
-							<td>
-								<i class="fa fa-map-marker"></i>
-								Delhi
-							</td>
-							<td>
-								<span class="dropdown dropdown-user-assignee">
-							<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
-								<img src="images/usericon.png" alt="">
-								 Saurabh
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#" class="text-muted">Saurabh</a></li>
-								<li><a href="#" class="text-muted">Rajeev</a></li>
-							</ul>
-						</span>
-							</td>
-							<td>
-								<i class="fa fa-camera"></i>
-								2 days ago
-							</td>
-							<td>
-								<i class="fa fa-check"></i>
-							</td>
-							<td>
-								<i class="fa fa-check-square"></i>
-								Assign Task
-							</td>
-							<td>
-								<i class="fa fa-close"></i>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="images/siteicon.png">
-								Gorai Bridge
-							</td>
-							<td>
-								<i class="fa fa-map-marker"></i>
-								Delhi
-							</td>
-							<td>
-								<span class="dropdown dropdown-user-assignee">
-							<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
-								<img src="images/usericon.png" alt="">
-								 Saurabh
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#" class="text-muted">Saurabh</a></li>
-								<li><a href="#" class="text-muted">Rajeev</a></li>
-							</ul>
-						</span>
-							</td>
-							<td>
-								<i class="fa fa-camera"></i>
-								2 days ago
-							</td>
-							<td>
-								<i class="fa fa-check"></i>
-							</td>
-							<td>
-								<i class="fa fa-check-square"></i>
-								Assign Task
-							</td>
-							<td>
-								<i class="fa fa-close"></i>
-							</td>
-						</tr>
-						<tr>
-							<td>
-								<img src="images/siteicon.png">
-								Gorai Bridge
-							</td>
-							<td>
-								<i class="fa fa-map-marker"></i>
-								Delhi
-							</td>
-							<td>
-								<span class="dropdown dropdown-user-assignee">
-							<a href="#" class="dropdown-toggle text-muted" data-toggle="dropdown" role="button" aria-expanded="false">
-								<img src="images/usericon.png" alt="">
-								 Saurabh
-								<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#" class="text-muted">Saurabh</a></li>
-								<li><a href="#" class="text-muted">Rajeev</a></li>
-							</ul>
-						</span>
-							</td>
-							<td>
-								<i class="fa fa-camera"></i>
-								2 days ago
-							</td>
-							<td>
-								<i class="fa fa-check"></i>
-							</td>
-							<td>
-								<i class="fa fa-check-square"></i>
-								Assign Task
-							</td>
-							<td>
-								<i class="fa fa-close"></i>
-							</td>
-						</tr>
-					</tbody>
-				</table>
-				<!-- table ends here -->
-      </div>
-    </div>
-  </div>
-  </div>
+			</div>
 		</div>
 		<!-- row second ends here -->
 	</div>

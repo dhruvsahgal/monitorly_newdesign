@@ -1,11 +1,1 @@
-/* line 4, ../../sass/sections/panel.scss */
-.panel-campaign, .panel-campaign-assignee { margin-bottom: 0px !important; padding: 1em; }
-
-/* line 8, ../../sass/sections/panel.scss */
-.panel-campaign-assignee { background-color: #d9d9d9; border-right: 1.3em solid #b1b1b1; }
-
-/* line 13, ../../sass/sections/panel.scss */
-.dropdown-user-assignee { background-color: #e1e1e1; padding: 0.4em; }
-
-/* line 17, ../../sass/sections/panel.scss */
-#headingOne, span { background-color: transparent; font-size: 12px; line-height: 2.3em; }
+.panel-campaign,.panel-campaign-assignee{margin-bottom:0px !important;padding:1em 0em 1em 0em}.dropdown-icon,.dropdown-icon:hover{color:#fff}.panel-campaign-assignee{background-color:#b2dfdb;border-right:1.3em solid #b1b1b1;color:#16a085}#headingOne,span{font-size:12px;line-height:2.3em}
